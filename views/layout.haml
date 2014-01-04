@@ -12,6 +12,9 @@
     // JS
     %script(src="/js/app.js")
     // CSS
-    %link(href="/stylesheets/screen.css" rel="stylesheet")
-  %body.bp
+    / %link(href="/stylesheets/ie.css" rel="stylesheet")
+    / %link(href="/stylesheets/print.css" rel="stylesheet")
+    / %link(href="/stylesheets/screen.css" rel="stylesheet")
+    %link(href="/stylesheets/app.css" rel="stylesheet")
+  %body
     = yield
